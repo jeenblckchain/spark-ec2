@@ -29,7 +29,7 @@ case "$HADOOP_MAJOR_VERSION" in
     cp /root/hadoop-native/* /root/persistent-hdfs/lib/native/
     ;;
   yarn)
-    wget http://s3.amazonaws.com/spark-related-packages/hadoop-2.4.0.tar.gz
+    wget http://s3.amazonaws.com/spark-related-packages/hadoop-2.7.0.tar.gz
     echo "Unpacking Hadoop"
     tar xvzf hadoop-*.tar.gz > /tmp/spark-ec2_hadoop.log
     rm hadoop-*.tar.gz
